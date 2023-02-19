@@ -16,7 +16,6 @@ h1 {
     animation: tracking-in-expand 2s;
 }
 
-
 form {
     display: flex;
     flex-direction: column;
@@ -138,6 +137,9 @@ footer>a>img {
     .welcome>img {
         width: 300px;
         display: block;
+    }
+    .h1Wellcome {
+        margin-left: 155px;
     }
 
     footer {
