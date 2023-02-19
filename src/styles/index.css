@@ -1,4 +1,4 @@
-main{
+main {
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
@@ -11,16 +11,14 @@ form {
     flex-direction: column;
     gap: 6rem;
     width: 250px;
-
-
 }
 
 
-form > input {
+form>input {
     height: 15px;
     padding: 1rem;
     border: 1px solid transparent;
-    background-color:  var(--color-inputs);
+    background-color: var(--color-inputs);
     border-radius: 0.5rem;
     font-family: var(--font-primary);
     text-align: center;
@@ -29,16 +27,16 @@ form > input {
     transition: 0.5s;
 }
 
-form > input::placeholder {
+form>input::placeholder {
     color: var(--color-primary);
 }
 
-form > input:focus {
-    outline-color:  var(--color-secundary);
+form>input:focus {
+    outline-color: var(--color-secundary);
 }
 
 
-form > button {
+form>button {
     height: 50px;
     border-radius: 0.5rem;
     border: 1px solid transparent;
@@ -48,7 +46,7 @@ form > button {
     transition: 0.8s;
 }
 
-form > button:hover {
+form>button:hover {
     transition: 0.8s;
     background-color: var(--color-secundary);
 }
@@ -60,7 +58,7 @@ footer {
     justify-content: center;
 }
 
-footer > a > img {
+footer>a>img {
     width: 100px;
 }
 
