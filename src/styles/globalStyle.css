@@ -2,4 +2,9 @@
 
 :root{
     --font-primary: 'Phudu', cursive;
+    --color-primary: #5271FF;
+    --color-secundary: #ffffff;
+    --color-inputs:  #000000c5;
+    --color-txt-1: rgb(0, 0, 0);
+    --color-txt-2: rgb(170, 170, 170);
 }
