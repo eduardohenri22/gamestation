@@ -1,1 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Phudu:wght@300;400;500;600;700&family=Roboto:wght@300&display=swap');
+
+:root{
+    --font-primary: 'Phudu', cursive;
+}
