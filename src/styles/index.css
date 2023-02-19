@@ -6,6 +6,10 @@ main {
     height: 100vh;
 }
 
+h1 {
+    font-family: var(--font-primary);
+}
+
 form {
     display: flex;
     flex-direction: column;
