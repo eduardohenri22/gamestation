@@ -17,7 +17,8 @@ function renderGames() {
 
     const getUl = document.querySelector('ul');
 
-    getGames.results.forEach(elemento => {
+    getGames.results.forEach(game => {
+    
         const liCard = document.createElement('li');
         getUl.append(liCard);
 
@@ -26,10 +27,28 @@ function renderGames() {
         liCard.append(boxGamer);
         
         const imgCard = document.createElement('img');
-            imgCard.src = elemento.background_image
+            imgCard.src = game.background_image
             boxGamer.append(imgCard);
 
+        const nameGame = document.createElement('h3')
+         nameGame.setAttribute('class', 'h3NameGame')
+          nameGame.innerText = game.name
+            boxGamer.append(nameGame)
+        
+        // game.platforms.forEach(platform => {
+        //     console.log(platform)
+        //     const pRequiriments = document.createElement('p')
+        //     pRequiriments.innerText = `Requisitos: ${platform.platform.requirements_en.recommended}`
+        // });
+        
+
+        // const yearGame = document.createElement('span')
+        //  yearGame.setAttribute('class', 'spanYearGame')
+        //     yearGame.innerText = `Ano: ${game.released}`
+        //     boxGamer.append(yearGame)
+
     })
+
 
 
 }

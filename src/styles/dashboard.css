@@ -82,11 +82,28 @@ button {
     width: 486px;
     height: 300px;
     background-color: var(--color-inputs);
+    border-radius: 8px;
     display: flex;
 }
 
 .boxGamer > img {
     width: 240px;
+    border-radius: 8px 8px 0px 0px;
     height: 160px;
     object-fit: cover;
+}
+
+.h3NameGame {
+    color: var(--color-secundary);
+    text-align: center;
+    font-family: var(--font-primary);
+    font-weight: 500;
+}
+
+.spanYearGame {
+    color: var(--color-primary);
+    font-family: var(--font-primary);
+    font-size: 0.6rem;
+    font-weight: 100;
+    text-align:center;
 }
