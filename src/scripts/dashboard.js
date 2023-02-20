@@ -7,4 +7,3 @@ export function profileDashboard() {
         h3UserName.innerText = `Olá,${getUserName}`
         header.append(h3UserName);
 }   
-profileDashboard()
