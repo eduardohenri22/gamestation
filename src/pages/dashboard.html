@@ -21,11 +21,12 @@
 
         <header>
         <a href="/"> <button >Logout</button> </a> 
+
             
         </header>
         <div class="divPesquisa">
-            <input type="text" placeholder="Digite sua pesquisa">
-            <img src="../assets/search.svg" alt="">
+            <input type="text" id="search-input" placeholder="Pesquisar...">
+            <img id="search-button" src="../assets/search.svg" alt="">
         </div>
 
         <main>
@@ -43,8 +44,26 @@
             </section>
         </main>
     </div>
+    
+    <div class="buttonsPages">
+        <button class="btPagesNext">Avançar</button>
+        <button class="btPagesPrevious">Voltar</button>
+    </div>
 
 
+    
+    <dialog class="modalController">
+        <div class="divGameScreenShots">
+
+        </div>
+        <div class="divCloseModal">
+
+            <button class="btCloseModal">X</button>
+        </div>
+        <div class="contentModal">
+            <!-- <img class="imgModal" src="" alt=""> -->
+        </div>
+    </dialog>
 
 
     <script type="module" src="/src/scripts/dashboard.js"></script>

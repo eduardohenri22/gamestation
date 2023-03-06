@@ -12,3 +12,5 @@ export async function allGames() {
         localStorage.setItem('games', JSON.stringify(data));
     })
 }
+
+

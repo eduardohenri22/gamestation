@@ -57,6 +57,7 @@ button {
 
 .banner video {
     position: fixed;
+    z-index: -5;
     top: 0;
     left: 0;
     object-fit: cover;
@@ -100,10 +101,91 @@ button {
     font-weight: 500;
 }
 
-.spanYearGame {
+.pYearGame {
     color: var(--color-primary);
     font-family: var(--font-primary);
     font-size: 0.6rem;
     font-weight: 100;
     text-align:center;
+}
+
+.pGameTags {
+    color: var(--color-primary);
+    font-family: var(--font-primary);
+    font-size: 0.8rem;
+    font-weight: 100;
+    text-align:center;
+}
+
+.btOpenGame {
+    font-family: var(--font-primary);
+    display: flex;
+    margin-top: 40px;
+    justify-content: center;
+    width: 60%;
+    background-color: var(--color-primary);
+    padding: 8px;
+    border: 1px solid transparent;
+    border-radius: 8px;
+    color: var(--color-secundary);
+}
+
+.divBtOpen {
+    display: flex;
+    justify-content: center;
+}
+.buttonsPages{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-top: 8px;
+    gap: 8px;
+}
+
+
+.modalController {
+    width: 90%;
+    height: 22.5rem;
+    z-index: 8;
+    border: 1px solid transparent;
+    border-radius: 8px;
+    
+}
+
+.btCloseModal {
+    width: 1.8rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    font-family: var(--font-primary);
+}
+
+.divCloseModal {
+    display: flex;
+    width: 100%;
+    justify-content: flex-end;
+    
+}
+
+.contentModal{
+    display: flex;
+    flex-direction: column;
+    height: 80%;
+    gap: 12px;
+}
+
+.imgModal {
+    width: 100%;
+    border-radius: 8px;
+}
+
+.aDownload {
+    color: var(--color-primary);
+    background-color: var(--color-inputs);
+    width: 5.8rem;
+    text-align: center;
+    border-radius: 8px;
+    padding: 4px;
+    font-family: var(--font-primary);
 }
